@@ -1,0 +1,34 @@
+article{
+    height: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(50, 49, 49);
+}
+
+img {
+    float: right;
+    width: 200px;
+    right: 400px;
+    margin: 10px 10px 10px 10px;
+}
+
+h3 {
+    line-height: 30px;
+    color: rgb(75, 73, 73);
+}
+
+ul {
+    color: rgb(109, 53, 162);
+    font-size: 22px;
+    width: 500px;
+    border: 1px solid grey;
+}
+
+li {
+    color: rgb(75, 73, 73);
+    font-size: 18px;
+}
