@@ -8,6 +8,7 @@ h1 {
   font-size: 60px;
   color: rgb(62, 28, 44);
   font-family: "Fleur De Leah", cursive;
+  
 }
 
 img {
@@ -43,6 +44,8 @@ hr {
   height: 4px;
   background-color: rgb(218, 139, 176);
   border: none;
+  margin-top: -30px;
+  margin-bottom: 40px;
 }
 
 .mySkills {
