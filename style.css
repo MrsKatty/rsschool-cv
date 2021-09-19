@@ -1,5 +1,4 @@
 article {
-  height: 1200px;
   width: 1200px;
   margin: 0 auto;
 }
@@ -73,17 +72,12 @@ a {
 }
 
 .logors {
-    margin-right: 1210px;
     width: 100px;
-    height: auto;
-    margin-top: 370px;
+   
 }
 
 .git {
     width: 50px;
-    height: auto;
-    margin-top: -50px;
-    margin-right: 1110px;
 }
 
 .code_logo {
@@ -112,3 +106,63 @@ code {
       padding: 0;
       font-size: 30px;
   }
+
+.vide_about_me{
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+    width: 500px;
+    border: 1px solid rgb(218, 139, 176);
+    padding: 20px 200px 20px 40px ; 
+    margin-bottom: 20px;
+}
+
+header{
+    margin: 0 auto;
+    width: 1200px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 0;
+}
+
+.nav-list_item{
+    width: fit-content;
+    list-style: none;
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+    color: rgb(75, 73, 73);
+     
+}
+
+.nav-list_item:hover{
+    outline: dotted rgb(218, 139, 176);
+}
+
+.about_link:hover {
+    color: rgb(218, 139, 176);
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.name {
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+    color: rgb(75, 73, 73);
+    margin-top: 20px;
+    margin-left: 10px;
+}
