@@ -1,34 +1,74 @@
-article{
-    height: 1200px;
-    width: 1200px;
-    margin: 0 auto;
+article {
+  height: 1200px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 h1 {
-    font-size: 40px;
-    color: rgb(50, 49, 49);
+  font-size: 60px;
+  color: rgb(62, 28, 44);
+  font-family: "Fleur De Leah", cursive;
 }
 
 img {
-    float: right;
-    width: 200px;
-    right: 400px;
-    margin: 10px 10px 10px 10px;
+  float: right;
+  width: 200px;
+  right: 400px;
+  margin: 10px 10px 10px 10px;
 }
 
 h3 {
-    line-height: 30px;
-    color: rgb(75, 73, 73);
+  line-height: 30px;
+  color: rgb(75, 73, 73);
 }
 
-ul {
-    color: rgb(109, 53, 162);
-    font-size: 22px;
-    width: 500px;
-    border: 1px solid grey;
-}
 
 li {
-    color: rgb(75, 73, 73);
-    font-size: 18px;
+  color: rgb(75, 73, 73);
+  font-size: 18px;
+}
+
+.about {
+  font-family: "Gideon Roman", cursive;
+  width: 800px;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  margin-left: 40px;
+}
+
+hr {
+  height: 4px;
+  background-color: rgb(218, 139, 176);
+  border: none;
+}
+
+.mySkills {
+
+}
+
+.contacts {
+    font-family: "Fleur De Leah", cursive; 
+    font-size: 40px;
+    color: rgb(62, 28, 44);
+}
+
+.contacts_about_me {
+    font-family: "Gideon Roman", cursive;
+    font-size: 22px;
+    width: 500px;
+    border: 1px solid rgb(218, 139, 176);
+    padding: 20px 200px 20px 40px ;
+}
+
+a {
+    color: rgb(61, 60, 60);
+}
+
+.skills{
+    font-family: "Fleur De Leah", cursive; 
+    font-size: 40px;
+    color: rgb(62, 28, 44);
 }
