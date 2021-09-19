@@ -48,10 +48,6 @@ hr {
   margin-bottom: 40px;
 }
 
-.mySkills {
-
-}
-
 .contacts {
     font-family: "Fleur De Leah", cursive; 
     font-size: 40px;
@@ -75,3 +71,44 @@ a {
     font-size: 40px;
     color: rgb(62, 28, 44);
 }
+
+.logors {
+    margin-right: 1210px;
+    width: 100px;
+    height: auto;
+    margin-top: 370px;
+}
+
+.git {
+    width: 50px;
+    height: auto;
+    margin-top: -50px;
+    margin-right: 1110px;
+}
+
+.code_logo {
+    font-family: "Fleur De Leah", cursive; 
+    font-size: 40px;
+    color: rgb(62, 28, 44);  
+}
+
+code {
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+    width: 500px;
+    color: rgb(75, 73, 73);
+}
+.exaplecode {
+    display: block;
+    width: 730px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  pre { 
+      margin: 0;
+      padding: 0;
+      font-size: 30px;
+  }
