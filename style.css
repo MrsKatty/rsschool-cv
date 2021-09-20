@@ -1,0 +1,168 @@
+article {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 60px;
+  color: rgb(62, 28, 44);
+  font-family: "Fleur De Leah", cursive;
+  
+}
+
+img {
+  float: right;
+  width: 200px;
+  right: 400px;
+  margin: 10px 10px 10px 10px;
+}
+
+h3 {
+  line-height: 30px;
+  color: rgb(75, 73, 73);
+}
+
+
+li {
+  color: rgb(75, 73, 73);
+  font-size: 18px;
+}
+
+.about {
+  font-family: "Gideon Roman", cursive;
+  width: 800px;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  margin-left: 40px;
+}
+
+hr {
+  height: 4px;
+  background-color: rgb(218, 139, 176);
+  border: none;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+
+.contacts {
+    font-family: "Fleur De Leah", cursive; 
+    font-size: 40px;
+    color: rgb(62, 28, 44);
+}
+
+.contacts_about_me {
+    font-family: "Gideon Roman", cursive;
+    font-size: 22px;
+    width: 500px;
+    border: 1px solid rgb(218, 139, 176);
+    padding: 20px 200px 20px 40px ;
+}
+
+a {
+    color: rgb(61, 60, 60);
+}
+
+.skills{
+    font-family: "Fleur De Leah", cursive; 
+    font-size: 40px;
+    color: rgb(62, 28, 44);
+}
+
+.logors {
+    width: 100px;
+   
+}
+
+.git {
+    width: 50px;
+}
+
+.code_logo {
+    font-family: "Fleur De Leah", cursive; 
+    font-size: 40px;
+    color: rgb(62, 28, 44);  
+}
+
+code {
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+    width: 500px;
+    color: rgb(75, 73, 73);
+}
+.exaplecode {
+    display: block;
+    width: 730px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  pre { 
+      margin: 0;
+      padding: 0;
+      font-size: 30px;
+  }
+
+.vide_about_me{
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+    width: 500px;
+    border: 1px solid rgb(218, 139, 176);
+    padding: 20px 200px 20px 40px ; 
+    margin-bottom: 20px;
+}
+
+header{
+    margin: 0 auto;
+    width: 1200px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 0;
+}
+
+.nav-list_item{
+    width: fit-content;
+    list-style: none;
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+    color: rgb(75, 73, 73);
+     
+}
+
+.nav-list_item:hover{
+    outline: dotted rgb(218, 139, 176);
+}
+
+.about_link:hover {
+    color: rgb(218, 139, 176);
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.name {
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+    color: rgb(75, 73, 73);
+    margin-top: 20px;
+    margin-left: 10px;
+}

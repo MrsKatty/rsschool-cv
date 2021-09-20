@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Gideon+Roman&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+    <script>
+        history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search);
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class='header' id='home'>
+        <nav>
+            <ul class='nav-list'>
+                <li class='nav-list_item'><a href="#home" class="scroll">Home</a></li>
+                <li class='nav-list_item'><a href="#about" class="scroll">About</a></li>
+                <li class='nav-list_item'><a href="#contacts">Contacts</a></li>
+                <li class='nav-list_item'><a href="#self-presentaion">Self-presentation</a></li>
+                <li class='nav-list_item'><a href="#skills">Skills</a></li>
+                <li class='nav-list_item'><a href="#code">Code</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1> <img src="img/efTNc0WxIEg.jpeg" alt="me">Katerina Motsnaya
+
+            </h1>
+            <hr>
+            <h3 class="about" id='about'>
+                About me: Hi, my name is Katya, I am glad to greet you on the checklist of my CV.
+                I am 25 years old, I am from Belarus from the city of Vitebsk.
+                At the moment, I have experience in developing projects in JS, I participated in a start-up project for
+                the development of a musical application, studied at an IT school for a backend position, and now I came
+                to this school to improve my skills and find new acquaintances.
+                This is a small part of what I can tell about myself, but it will be enough for a starting CV.
+                Have a nice day and great mood! :)
+            </h3>
+            <div class="mySkills">
+                <div class="contacts" id='contacts'>Contacts:
+                    <ul class="contacts_about_me">
+                        <li>Tel: <a href="callto:+375292919049" class="about_link"> +375-(29)-291-90-49</a> </li>
+                        <li>Email: <a href="mailto:ktmotsnaya@gmail.com" class="about_link">ktmotsnaya@gmail.com</a>
+                        </li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/katerinamotsnaya/"
+                                class="about_link">https://www.linkedin.com/in/katerinamotsnaya/</a>
+                        </li>
+                        <li>GitHub: <a href="https://github.com/MrsKatty"
+                                class="about_link">https://github.com/MrsKatty</a> </li>
+
+                    </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="contacts self" id='self-presentaion'>Self-presentation:</div>
+                    <br>
+                    <div class="vide_about_me"> <a href="https://youtu.be/rDqZTfjbw6Y" class="about_link">Link to
+                            video</a> </div>
+
+                </div>
+
+                <div class="skills" id='skills'>
+                    Skills:
+                    <ul class="contacts_about_me">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>Git</li>
+                        <li>SQL(MySQL)</li>
+                        <li>Webpack</li>
+                    </ul>
+
+                    <div class="skills">
+                        Language:
+                        <ul class="contacts_about_me">
+                            <li>English - A2</li>
+                            <li>Russian - native</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="skills">
+                        Education:
+                        <ul class="contacts_about_me">
+                            <li>Vitebsk State University - lawer</li>
+                            <li>IT Academy Step - Fullstack</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div >
+                    <div class="code_logo" id='code'>
+                        Sample code:
+                        <pre>
+    <code class="exaplecode">
+            function cache(func) {
+            var calls = {};
+            return function() {
+              var key = JSON.stringify(arguments);
+              if (!(key in calls)) {
+                calls[key] = func.apply(null, arguments);
+              }
+              return calls[key];
+            };
+          }
+    </code>
+</pre>
+                    </div>
+                </div>
+        </article>
+        <footer>
+            <a href="https://rs.school/js/">
+                <img src="img/1.png" class="logors" alt="logo">
+            </a>
+            <a href="https://github.com/MrsKatty">
+                <img src="img/2048px-Octicons-mark-github.svg.png" class="git" alt="logo">
+
+            </a>
+            <span class="name">Katerina Motsnaya 2021</span>
+        </footer>
+    </main>
+    <script>
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    </script>
+</body>
+
+</html>
